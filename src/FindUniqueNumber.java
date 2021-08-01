@@ -12,10 +12,11 @@ public class FindUniqueNumber {
         double arr[] = {1, 1, 0.55, 1, 1};
         System.out.println(findUniq(arr));
     }
+
     public static double findUniq(double arr[]) {
         Arrays.sort(arr);
         if (arr[0] == arr[1])
-            return arr[arr.length-1];
+            return arr[arr.length - 1];
         else
             return arr[0];
     }
