@@ -17,5 +17,6 @@ public class GetTheMiddleCharacter {
             result = word.substring((word.length() / 2), (word.length() / 2 + 1));
         }
         return result;
+
     }
 }
