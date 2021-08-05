@@ -1,3 +1,6 @@
+/*
+check that it is a triangle
+ */
 public class Triangle {
     public static void main(String[] args) {
         System.out.println(isTriangle(4, 8, 3));
